@@ -1,0 +1,226 @@
+body{
+    height: 130vh;
+        background: blanchedalmond
+}
+::-webkit-scrollbar{
+    width: 60px;
+}
+::-webkit-scrollbar-track{
+    background: white
+}
+::-webkit-scrollbar-thumb{
+    color:red;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.logo{
+    width:20%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:43%;
+    height:70%;
+    border:2px solid red;
+    border-radius:50%;
+}
+.navbar{
+   top:0;
+   cursor: pointer;
+    position: sticky;
+}
+.nav-list{
+    height:48%;
+    background: url(title.jpg);
+    display: flex;
+   align-items: center;
+   justify-items: left
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list a:hover {
+    
+    color: darkred;
+}
+
+
+
+.secondHalf img{
+    width:250px;
+    height:250px;
+    display: flex;
+    left:70%;
+    padding: 2px;
+      border:4px solid white;
+      display: block;
+      margin:auto;
+      border-radius: 20px
+}
+
+.main{
+    margin-top:20%;
+    
+    display: flex;
+ justify-content: center;
+    color: darkred;
+  border: 4px solid darkred;
+border-radius:20px;
+   height:320px
+}
+.firstHalf{
+        height:250px;
+        width:500px;
+      
+    
+       justify-content: center;
+       align-items: center;
+       flex-direction: column
+}
+.firstBigText{
+    font-size: 50px;
+    left:20%;
+    align-self: inline;
+    font-weight: bolder
+}
+.secondBigText {
+    top:2%;
+    font-size: 50px;
+    left: 20%;
+    align-self: inline;
+    font-weight: bolder;
+    color: #ffc107
+}
+.smallText{
+      top:15%;
+      font-size: 20px;
+      left: 20%;
+  margin-bottom: 5px;
+      color: darkmagenta;
+      font-style: bolder
+}
+.btn{
+    cursor: pointer;
+    margin:7px 3px;
+    padding: 8px 20px;
+    border:2px solid black;
+    align-items: center;
+    font-size:16px;
+    font-weight: bolder;
+    color:white;
+    background: red;
+    border-radius: 10px;
+        
+}
+.btn:hover{
+    color:blue;
+    background: yellow;
+
+}
+.copyright{
+ margin-top:228px;
+ background:white;
+ padding: 30px 0;
+   justify-content: center;
+    font-family: 'Ubuntu',sans-serif;
+    display:flex;
+    align-items: center
+}
+
+.aboutus{
+    width:80%;
+   margin: auto;
+   margin-top: 15%;
+    height:300px;
+    background: snow;
+    justify-items: center;
+    border:4px solid red;
+    border-radius: 20px
+}
+.aboutus h1{
+    font-size: 40px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 20px bolder;
+    color:darkred;
+    justify-content: center;
+    margin-top: 10px
+}
+.aboutus h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkorange;
+    margin-left:50%;
+}
+.aboutus h4{
+    font-size: 20px;
+    color: darkgreen;
+    margin-top: 10%;
+}
+.services{
+    width:80%;
+   margin: auto;
+   margin-top: 15%;
+    height:400px;
+    background: snow;
+    justify-items: center;
+    border:4px solid red;
+    border-radius: 20px
+}
+.services h1{
+    font-size: 40px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 20px bolder;
+    color:darkred;
+    justify-content: center;
+    margin-top: 10px
+}
+.services h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkorange;
+    margin-left:50%;
+}
+.services h4{
+    font-size: 20px;
+    color: darkgreen;
+    margin-top: 10%;
+}
+
+.contactus {
+    width: 80%;
+    margin: auto;
+    margin-top: 15%;
+    height: 400px;
+    background: snow;
+    justify-items: center;
+    border: 4px solid red;
+    border-radius: 20px
+}
+.contactus h1{
+    font-size: 40px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 20px bolder;
+    color:darkred;
+    justify-content: center;
+    margin-top: 10px
+}
+.contactus h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkorange;
+    margin-left:50%;
+}
+.contactus h4{
+    font-size: 20px;
+    color: darkgreen;
+    margin-top: 10%;
+}
